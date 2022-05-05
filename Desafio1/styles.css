@@ -1,0 +1,53 @@
+body{
+    background-color:rgb(48, 48, 48);
+}
+
+.container{
+    max-width: 1024px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color:rgb(30, 30, 30);
+    position: relative;
+}
+
+.box{
+    background-color:blueviolet;
+    position: absolute;
+}
+
+.esqCima{
+    width:100px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.dirCima{
+    width:100px;
+    height: 100px;
+    right: 0px;
+    top: 0px;
+}
+
+.meio{
+    width:100px;
+    height: 100px;
+    top: calc(50% - 100px/2);
+    left: calc(50% - 100px/2);
+}
+
+.esqBaixo{
+    width:100px;
+    height: 100px;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+}
+
+.dirBaixo{
+    width:100px;
+    height: 100px;
+    right: 0px;
+    bottom: 0px;
+}
