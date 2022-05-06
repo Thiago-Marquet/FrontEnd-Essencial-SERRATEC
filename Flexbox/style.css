@@ -32,11 +32,12 @@ header{
     display: flex;
     flex: 10;
     background-color: aquamarine;
+    overflow-y: auto;
 }
 
 .foto{
-    height: 120px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
     background-color: rgb(206, 161, 247);
     border: 1px solid rgb(255, 255, 255);
     margin: 5px;
@@ -51,7 +52,7 @@ main{
     padding-left: 60px;
     align-content:space-between;
     flex-wrap: wrap;
-
+    overflow-y: auto;
 }
 
 aside{
