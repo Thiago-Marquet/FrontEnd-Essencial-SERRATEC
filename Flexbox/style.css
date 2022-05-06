@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(162, 162, 162);
+}
+.container{
+    background-color:rgb(135, 204, 231);
+    flex-direction: column;
+    display: flex;
+    max-width: 1024px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo{
+    margin-left: 3%;
+    font-weight: bold;
+}
+
+.upload{
+    margin-right: 3%;
+    color: rgb(39, 165, 123);
+}
+
+.content{
+    display: flex;
+    flex: 10;
+    background-color: aquamarine;
+}
+
+.foto{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(206, 161, 247);
+    border: 1px solid rgb(255, 255, 255);
+    margin: 5px;
+
+}
+
+main{
+    flex: 3;
+    background-color: rgb(152, 232, 248);
+    display: flex;
+    padding: 10px;
+    padding-left: 60px;
+    align-content:space-between;
+    flex-wrap: wrap;
+
+}
+
+aside{
+    background-color: rgb(182, 206, 224);
+    flex: 1;
+
+}
+
+footer{
+    display: flex;
+    flex: 1;
+    background-color: aliceblue;
+    flex-direction: row-reverse;
+
+}
+
+button{
+    align-self: center;
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    box-shadow:0px;
+    font-family: Lucida Console;
+
+}
+
+
+ul li{
+    list-style: none;
+    margin: 20px;
+}
+
+
+
+.font{
+    font-size: larger;
+    font-family: Lucida Console;
+
+}
+
